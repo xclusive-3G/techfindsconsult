@@ -1,0 +1,11 @@
+{
+  "name": "techfinds-website",
+  "private": true,
+  "version": "1.0.0",
+  "description": "TechFinds Consult Limited — co-working space & tech academy, FUTA Northgate, Akure",
+  "scripts": {
+    "install:all": "npm --prefix client install",
+    "dev": "npm --prefix client run dev",
+    "build": "npm --prefix client run build"
+  }
+}
