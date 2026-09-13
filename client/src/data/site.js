@@ -18,6 +18,7 @@ export const site = {
 
 export const nav = [
   { label: 'Overview', href: '#overview' },
+  { label: 'About', href: '#about' },
   { label: 'Passes', href: '#passes' },
   { label: 'Memberships', href: '#memberships' },
   { label: 'Academy', href: '#academy' },

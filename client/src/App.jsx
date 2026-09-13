@@ -1,5 +1,6 @@
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
+import About from './components/About'
 import Passes from './components/Passes'
 import Memberships from './components/Memberships'
 import Academy from './components/Academy'
@@ -19,6 +20,7 @@ export default function App() {
       <Navbar />
       <main className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-8 md:pt-14 pb-20">
         <Hero />
+        <About />
         <Passes />
         <Memberships />
         <Academy />
