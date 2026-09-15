@@ -23,7 +23,7 @@ export default function Hero() {
             </Chip>
           </motion.div>
           <motion.h1 variants={item} className="text-4xl sm:text-5xl lg:text-[3.6rem] font-extrabold text-slate-900 tracking-tight leading-[1.08]">
-            Learn tech, build research, and work from a hub that never goes dark.
+            Learn tech, facilitate research, and work from a hub that never goes dark.
           </motion.h1>
           <motion.p variants={item} className="text-base sm:text-lg text-slate-600 leading-relaxed max-w-xl">
             TechFinds Consult Limited is an IT company driving digital skills training, data science, machine learning, software development and research support — plus a 14-track tech academy and co-working hub at FUTA Northgate with daily PHCN, guaranteed generator backup and 100 Mbps+ internet.
