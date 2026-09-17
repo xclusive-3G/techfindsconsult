@@ -60,7 +60,7 @@ export default function Navbar() {
           aria-label="Primary"
         >
           <a className="flex items-center gap-3 shrink-0" href="#overview" aria-label="TechFinds home">
-            <Logo />
+            <Logo className="h-8 sm:h-9 md:h-10" />
           </a>
 
           <ul className="hidden lg:flex items-center gap-1 text-sm font-medium text-slate-700">
@@ -79,10 +79,13 @@ export default function Navbar() {
             ))}
           </ul>
 
-          <div className="flex items-center gap-2">
-            <a className="btn-ink !px-5 !py-2.5 text-xs md:text-sm" href="#reserve">Book a desk</a>
+          <div className="flex items-center gap-1.5 sm:gap-2 shrink-0">
+            <a className="btn-ink !px-3.5 !py-2 sm:!px-5 sm:!py-2.5 text-xs md:text-sm" href="#reserve">
+              <span className="sm:hidden">Book</span>
+              <span className="hidden sm:inline">Book a desk</span>
+            </a>
             <button
-              className="lg:hidden w-10 h-10 rounded-full flex items-center justify-center text-slate-800 hover:bg-white transition"
+              className="lg:hidden w-9 h-9 sm:w-10 sm:h-10 shrink-0 rounded-full flex items-center justify-center text-slate-800 hover:bg-white transition"
               onClick={() => setOpen(true)}
               aria-label="Open menu"
             >
