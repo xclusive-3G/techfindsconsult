@@ -9,7 +9,7 @@ export const site = {
   hours: 'Mon – Sat, 8:00 AM – 4:00 PM',
   phones: [
     { label: 'WhatsApp line 1', display: '+234 806 822 5519', tel: '+2348068225519' },
-    { label: 'WhatsApp line 2', display: '+234 806 822 5519', tel: '+2348068225519' },
+    { label: 'WhatsApp line 2', display: '+234 802 096 0058', tel: '+2348020960058' },
   ],
   email: 'Techfinds.consult23@gmail.com',
   // Access key from web3forms.com, tied to the receiving inbox above — safe to expose client-side.
