@@ -11,8 +11,10 @@ import Footer from './components/Footer'
 
 export default function App() {
   return (
-    <>
-      {/* Ambient orbs */}
+    <div className="relative overflow-x-hidden">
+      {/* Ambient orbs — contained here so their bleed-off-edge positioning can't
+          cause horizontal scroll (this div is their containing block, unlike
+          html/body, which reliably clips them on mobile Safari too). */}
       <div aria-hidden className="orb w-96 h-96 bg-purple-300/40 -top-20 -right-10 animate-drift" />
       <div aria-hidden className="orb w-[450px] h-[450px] bg-indigo-200/50 top-[700px] -left-40 animate-drift-slow" />
       <div aria-hidden className="orb w-96 h-96 bg-blue-200/40 bottom-[1200px] -right-16 animate-drift" />
@@ -29,6 +31,6 @@ export default function App() {
         <Reserve />
       </main>
       <Footer />
-    </>
+    </div>
   )
 }
