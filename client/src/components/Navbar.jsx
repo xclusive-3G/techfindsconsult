@@ -56,7 +56,7 @@ export default function Navbar() {
 
       <header className="sticky top-0 z-40 px-4 pt-3 pb-2">
         <nav
-          className={`max-w-7xl mx-auto glass rounded-full pl-4 pr-2 py-2 flex items-center justify-between transition-all duration-300 ${scrolled ? 'shadow-glass-lg' : ''}`}
+          className={`max-w-7xl mx-auto glass rounded-full pl-4 pr-4 sm:pr-2 py-2 flex items-center justify-between transition-all duration-300 ${scrolled ? 'shadow-glass-lg' : ''}`}
           aria-label="Primary"
         >
           <a className="flex items-center gap-3 shrink-0" href="#overview" aria-label="TechFinds home">
