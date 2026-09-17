@@ -8,7 +8,7 @@
   }
   body {
     @apply font-sans antialiased text-slate-800 overflow-x-hidden;
-    background: radial-gradient(circle at 10% 10%, #f4f2ff 0%, #e9ecfd 45%, #e1e8fa 100%);
+    background: radial-gradient(circle at 50% 0%, #f4f2ff 0%, #e9ecfd 45%, #e1e8fa 100%);
     min-height: 100vh;
   }
   ::selection { @apply bg-indigo-500 text-white; }
