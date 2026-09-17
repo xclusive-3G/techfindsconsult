@@ -3,6 +3,9 @@
 @tailwind utilities;
 
 @layer base {
+  html {
+    @apply overflow-x-hidden;
+  }
   body {
     @apply font-sans antialiased text-slate-800 overflow-x-hidden;
     background: radial-gradient(circle at 10% 10%, #f4f2ff 0%, #e9ecfd 45%, #e1e8fa 100%);
