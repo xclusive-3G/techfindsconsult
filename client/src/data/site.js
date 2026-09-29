@@ -1,4 +1,12 @@
 import logo from '../images/logo.png'
+import stephenImg from '../images/WhatsApp Image 2026-09-18 at 11.22.15 PM.jpeg'
+import adedejiImg from '../images/WhatsApp Image 2026-09-18 at 11.22.16 PM (1).jpeg'
+import temitopeImg from '../images/WhatsApp Image 2026-09-18 at 11.22.16 PM.jpeg'
+import ajayiImg from '../images/WhatsApp Image 2026-09-18 at 11.22.17 PM (1).jpeg'
+import olawoleImg from '../images/WhatsApp Image 2026-09-18 at 11.22.17 PM.jpeg'
+import omogoroyeImg from '../images/WhatsApp Image 2026-09-18 at 11.22.18 PM (1).jpeg'
+import akinrataImg from '../images/WhatsApp Image 2026-09-18 at 11.22.18 PM.jpeg'
+import adeniranImg from '../images/WhatsApp Image 2026-09-18 at 11.22.19 PM.jpeg'
 
 export const site = {
   name: 'TechFinds Consult Limited',
@@ -22,8 +30,97 @@ export const nav = [
   { label: 'Passes', href: '#passes' },
   { label: 'Memberships', href: '#memberships' },
   { label: 'Academy', href: '#academy' },
+  { label: 'Mentors & Faculty', href: '#faculty' },
   { label: 'Research & ICT', href: '#research' },
   { label: 'Location', href: '#reserve' },
+]
+
+export const founder = {
+  name: 'Stephen Ayanleye',
+  badge: 'Founder Spotlight',
+  roleTags: ['Founder & Principal Consultant', 'Big Data Analytics (Griffith Univ, Australia)'],
+  subtitle: 'Independent Academic Researcher • Data Analytics Expert (SPSS, STATA, Power BI, R)',
+  bio: 'Stephen is a First Class Graduate and Best Graduating Student in Agricultural & Resource Economics at FUTA. Certified in Big Data Analytics from Griffith University, Queensland, Australia, he has 7+ years of cross-disciplinary expertise spanning Agric, Tech, and Education across Nigeria and internationally. Previously a Farm Supervisor at University of Benin and external undergraduate project supervisor at IBLT University, Togo, he birthed TechFinds Consult to bridge the gap between IT and empirical research — delivering scalable digital solutions to real-world Nigerian challenges.',
+  stats: [
+    { label: 'Honours', value: 'First Class (FUTA)' },
+    { label: 'Global cert', value: 'Griffith Univ, Aus' },
+    { label: 'Track record', value: '7+ Years Industry' },
+    { label: 'Core stack', value: 'SPSS, STATA, BI, R' },
+  ],
+  img: stephenImg,
+}
+
+export const faculty = [
+  {
+    name: 'Adekanbi Adedeji',
+    title: 'Lead Video Editor & Media Producer',
+    badge: '15+ Years Industry Experience',
+    tag: 'Video & Motion',
+    bio: 'Graduate of BOUESTI Ikere-Ekiti. Veteran editor behind productions with top industry stars including Femi Adebayo and Kunle Afod. Has mentored 100+ trainees with operating studios in Akure.',
+    skill: 'Premiere Pro & CapCut',
+    credential: '100+ Trained',
+    img: adedejiImg,
+  },
+  {
+    name: 'Ayegbusi Temitope',
+    title: 'Research Associate & Data Analyst',
+    badge: 'Lecturer & PhD Researcher',
+    tag: 'Biostatistics & Data',
+    bio: 'RDN, Clinical Dietitian & Lecturer at YABATECH/LUTH College of Nursing. M.Sc (CGPA 4.53/5.0) Univ of Port-Harcourt and peer reviewer for the UK Journal of World Nutrition.',
+    skill: 'Public Health Data & SPSS',
+    credential: 'YABATECH Faculty',
+    img: temitopeImg,
+  },
+  {
+    name: 'Daniel Ajayi',
+    title: 'Senior Web Designer & Marketer',
+    badge: '5+ Years Web Experience',
+    tag: 'Web & Growth',
+    bio: 'Adekunle Ajasin University (AAUA) alumnus. Proven track record leading digital production teams and empowering students with hands-on web deployment from scratch to launch.',
+    skill: 'CMS & Modern Web Arch',
+    credential: 'AAUA Alum',
+    img: ajayiImg,
+  },
+  {
+    name: 'Iseoluwa Olawole',
+    title: 'Lead Graphic Designer & Photographer',
+    badge: 'Visual Brand Specialist',
+    tag: 'Graphic Design',
+    bio: 'Mechatronics Engineering graduate from FUOYE. Over 5 years of mastery in Adobe Photoshop, Illustrator, and InDesign, creating memorable brand graphics and commercial photography.',
+    skill: 'Photoshop, Illustrator, InDesign',
+    credential: 'FUOYE Alum',
+    img: olawoleImg,
+  },
+  {
+    name: 'Odunayo Omogoroye',
+    title: 'Senior Data Analyst & Modeler',
+    badge: 'First-Class Honours (FUTA)',
+    tag: 'Data Analytics',
+    bio: 'Results-driven analyst with expertise across Sahel Consulting, Baobab Microfinance Bank, and FCMB. Proficient in Python, SQL, Tableau, Power BI, and predictive modeling.',
+    skill: 'Python, SQL, Tableau & BI',
+    credential: 'FUTA Alum',
+    img: omogoroyeImg,
+  },
+  {
+    name: 'Ayomide Akinrata',
+    title: 'Software Developer & Frontend Engineer',
+    badge: 'Cybersecurity Graduate (FUTA)',
+    tag: 'Software Dev',
+    bio: 'Cybersecurity specialist from FUTA. Frontend engineer at InTech specializing in ReactJS, TypeScript, Python, Node.js, and AWS cloud deployment for security-conscious products.',
+    skill: 'React, TypeScript, Python, AWS',
+    credential: 'FUTA Alum',
+    img: akinrataImg,
+  },
+  {
+    name: 'Simisola Adeniran',
+    title: 'UI/UX Designer & Product Strategist',
+    badge: '5+ Years Product Design',
+    tag: 'UI/UX Design',
+    bio: 'Graduate of FUTA currently based in the UK. Extensive product experience at SekiApp, co-founder at Bigbrand, and UX designer at Otherface.tech focusing on human-centered experiences.',
+    skill: 'Figma, UX Research & Design',
+    credential: 'FUTA Alum • UK',
+    img: adeniranImg,
+  },
 ]
 
 export const passes = {

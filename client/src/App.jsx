@@ -4,6 +4,7 @@ import About from './components/About'
 import Passes from './components/Passes'
 import Memberships from './components/Memberships'
 import Academy from './components/Academy'
+import Leadership from './components/Leadership'
 import Testimonials from './components/Testimonials'
 import Research from './components/Research'
 import Reserve from './components/Reserve'
@@ -26,6 +27,7 @@ export default function App() {
         <Passes />
         <Memberships />
         <Academy />
+        <Leadership />
         <Testimonials />
         <Research />
         <Reserve />
